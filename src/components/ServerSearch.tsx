@@ -102,7 +102,7 @@ export default function ServerSearch({ onSearch }: { onSearch: (ip: string) => v
                             placeholder="Server IP (e.g., hypixel.net or 192.168.1.1:25565)"
                             aria-invalid={!!error}
                             aria-describedby={error ? "ip-error" : undefined}
-                            className={["h-12 w-full max-w-3xl rounded-full", "bg-charcoal/10 backdrop-blur placeholder:text-black/55 text-gray-200", "border-4", error ? "border-red-500" : "border-charcoal/80",].join(" ")}
+                            className={["h-12 w-full max-w-3xl rounded-full", "bg-charcoal/10 backdrop-blur placeholder:text-blue-100/45 text-gray-200", "border-4", error ? "border-red-500" : "border-charcoal/80",].join(" ")}
                         />
 
                         {/* Clear (X) button */}
