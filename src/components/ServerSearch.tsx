@@ -69,7 +69,7 @@ export default function ServerSearch({ onSearch }: { onSearch: (ip: string) => v
         if (isValidMinecraftAddress(value)) {
             setError(null);
         } else {
-            setError("Enter a valid server address (domain or IPv4, optional :port).");
+            setError("Enter a valid server address (domain or IPv4).");
             setShowResults(false);
         }
     }
